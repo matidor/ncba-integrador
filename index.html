@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
+  <!-- Hamburguer -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+  <link rel="icon" href="./assets/img/nike-48_46226.ico">
+  <title>Sneakers Store</title>
+</head>
+
+<body>
+  <div class="body-container">
+    <div id="cart__container">
+      <div class="cart__imagen">
+        <a href="#"><img src="./assets/img/cart.png" alt=""></a>
+      </div>
+      <div id="cart" class="cart__tabla">
+        <table id="cart-list">
+          <thead>
+            <tr>
+              <th>Imagen</th>
+              <th>Nombre</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div class="cart__tabla__total">
+          <span></span>
+        </div>
+        <div class="cart__tabla__btn tabla__btn--buy">
+          <button id="buy__btn">Comprar</button>
+        </div>
+        <div class="cart__tabla__btn">
+          <button id="empty-cart">Limpiar carrito</button>
+        </div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="navBar__logo">
+        <img src="./assets/img/descarga.png" alt="">
+      </div>
+      <button id="hamburguer" class="hamburger hamburger--emphatic navBar__btn" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <aside id="panel" class="panel">
+        <nav class="menu">
+          <a href="index.html">Home</a>
+          <a href="#search">Search</a>
+          <a href="login.html">Log In</a>
+        </nav>
+      </aside>
+    </header>
+    <main class="main">
+      <section class="banner">
+        <div class="banner__container">
+          <img src="./assets/img/skateboarding-vans-wall-logo-wallpaper.jpg" alt="">
+        </div>
+      </section>
+      <section id="section" class="section">
+        <div class="section-container">
+          <div class="selector">
+            <p class="after"><a class="select__classic" href="#">classic</a></p>
+            <p class="after"><a class="select__botitas" href="#">botitas</a></p>
+            <p><a class="select__unicas" href="#">unicas</a></p>
+          </div>
+          <form id="search" class="search">
+            <div class="search__box">
+              <input type="text" placeholder="Search">
+              <button><img src="./assets/img/loop.png" alt=""></button>
+            </div>
+          </form>
+          <div class="error_container">
+          </div>
+          <div id="shoes-list" class="shoes__container">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-main">
+        <div class="ftr-container">
+          <div class="ftr-1">
+            <div class="ftr-1-title">
+              <h2>VANS SHOES</h2>
+            </div>
+            <div class="ftr-news-title">
+              <h3>NEWSLETTER</h3>
+            </div>
+            <div class="ftr-newsletter">
+              <input type="email" required>
+              <button type="submit"><a>JOIN</a></button>
+            </div>
+          </div>
+          <div class="ftr-2">
+            <div class="ftr-contact-title">
+              <h3>CONTACT</h3>
+            </div>
+            <div class="ftr-contact-content">
+              <p><span>Address:</span> mar azul</p>
+              <p><span>Phone:</span> 2254627412</p>
+              <p><span>Instagram:</span>@marazulstore</p>
+            </div>
+          </div>
+        </div>
+        <div class="ftr-bottom">
+          <p>© Copyright by <a href="https:///" target="_blank">mati d</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./assets/js/app.js" type="module"></script>
+</body>
+
+</html>
